@@ -45,8 +45,7 @@ plot_3 <- ggplot(USArrests, aes(x=Rape, y=Murder, color=cluster)) +
   labs(x="Rape", y="Murder", title="Hierarchical Clustering of USArrests")
 
 
-
-
+grid.arrange(plot_1, plot_2, plot_3, nrow=2)
 
 
 # Create a list of state names by cluster
